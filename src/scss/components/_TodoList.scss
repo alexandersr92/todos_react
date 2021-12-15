@@ -1,0 +1,58 @@
+.todoList{
+
+    ul{
+        padding: 0px;
+        width: 100%;
+        max-height: 300px;
+        display: block;
+        overflow-y: scroll;
+    
+        li.completed{
+            div{
+                color: rgb(210, 210, 210);
+            }
+
+        }
+        li{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 0px 20px;
+            position: relative;
+            width: 80%;
+         
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-size: 16px;
+                color: rgb(110, 110, 110);
+                input{
+
+                    background: #24D8A8;
+                }
+            }
+            button{
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                padding:0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                background: rgb(212, 79, 79);
+                color: #fff;
+
+            }
+        }
+    }
+   
+}
